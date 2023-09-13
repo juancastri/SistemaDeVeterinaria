@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sistema de Veterianaria</title>
+    <link rel="stylesheet" href="/public/css/style.css">
     <!--BOOSTRAP -->
     <link href="public/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     
@@ -55,30 +56,41 @@
         </div>
       </nav>
 
-      <section>
+      <section class="carousel">
         <div id="carouselExampleCaptions" class="carousel slide">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="https://media.istockphoto.com/id/1365087872/es/foto/m%C3%A9dico-que-realiza-una-ecograf%C3%ADa-en-perro.jpg?s=1024x1024&w=is&k=20&c=SkvciUSduullb6I2gMqtjh-LxORqF2O4k-AVavhO8nA=" class="d-block w-100" alt="...">
+              <img src="https://cdn.pixabay.com/photo/2020/04/04/19/52/medicine-5003631_1280.jpg" height="500px" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
+                <a href="" class="btn btn-outline-info">Reservar cita</a>
+                <a href="" class="btn btn-info">Ver productos</a>
                 <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="https://cdn.pixabay.com/photo/2020/03/17/13/57/veterinary-4940425_1280.jpg" class="d-block w-100" alt="...">
+              <img src="https://cdn.pixabay.com/photo/2020/03/17/13/57/veterinary-4940425_1280.jpg" height="500px" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Second slide label</h5>
                 <p>Some representative placeholder content for the second slide.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="https://cdn.pixabay.com/photo/2020/03/31/16/18/cat-4988407_1280.jpg" class="d-block w-100" alt="...">
+              <img src="https://cdn.pixabay.com/photo/2020/03/31/16/18/cat-4988407_1280.jpg" height="500px" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://cdn.pixabay.com/photo/2013/11/23/01/05/bernese-mountain-dog-216113_1280.jpg" height="500px" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
@@ -94,6 +106,21 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+      </section>
+
+      <section class="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-img col-md-6 col-sm-12">
+              <img src="https://img.freepik.com/vector-gratis/veterinario-muchos-tipos-animales_1308-65733.jpg?w=740&t=st=1694637635~exp=1694638235~hmac=a0a664d0bbebf4c3675b403a64f73924533448c792a33d28363e13842e6a2196" width="100%" height="500px" alt="veterinarios">
+            </div>
+            <div class="about-text col-md-6 col-sm-12">
+              <h2>Acerca de nuestra <span style="color:#2431ad;">clinica de mascotas</span></h2>
+              <br>
+              <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam eum at est. Deserunt doloremque accusamus, facere, veniam laboriosam vero deleniti omnis minima modi cupiditate asperiores pariatur expedita magnam atque molestiae!</p>
+              <a href="#" class="btn btn-outline-primary">Más sobre nosotros</a>
+            </div>
+          </div>
       </section>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>

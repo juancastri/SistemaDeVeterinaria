@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+
+.about .container .row{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about .container .row .about-img{
+    text-align: center;
+}
