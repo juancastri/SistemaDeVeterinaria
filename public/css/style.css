@@ -4,12 +4,19 @@
     border: 0;
 }
 
-.about .container .row{
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
+.info{
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-azul-claro-acuarela_1035-7450.jpg?w=740&t=st=1694751872~exp=1694752472~hmac=eec12dfb49c3c30dcab0240d0eb8f881728a7a8b792736609fc53bcd2e572eda");
+    background-size: 100vw 100vh; /*Ocupa el 100% del ancho*/
+    background-repeat: no-repeat;
 }
 
-.about .container .row .about-img{
+.info .container .row{
+    display: flex;
+    align-items: center;
+    
+}
+
+.info .container .row .about-img{
     text-align: center;
 }
+
