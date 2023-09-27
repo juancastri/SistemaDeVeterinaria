@@ -3,27 +3,48 @@
     padding: 0;
     border: 0;
 }
-
 .info{
     background-image: url("https://img.freepik.com/vector-gratis/fondo-azul-claro-acuarela_1035-7450.jpg?w=740&t=st=1694751872~exp=1694752472~hmac=eec12dfb49c3c30dcab0240d0eb8f881728a7a8b792736609fc53bcd2e572eda");
     background-size: 100vw 100vh; /*Ocupa el 100% del ancho*/
     background-repeat: no-repeat;
 }
-
 .info .container .row{
     display: flex;
     align-items: center;
     
 }
-
 .info .container .row .about-img{
     text-align: center;
 }
-
 .card{
     border: none !important;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin:auto;
+}
+.col-md-12 h1{
+    margin-left: 5rem;
+    margin-bottom: 4rem
+}
+.btn-our-services{
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+.gallery{
+    background-color: rgb(83, 147, 184);
+}
+.gallery img{
+    margin-bottom: 2rem;
+}
+.zoomP{
+    /* Aumentamos la anchura y la altura durante un segundo*/
+    transition: width 1.1s, height 1.1s, transform 1.1s;
+    -moz-transition: width 1.1s, height 1.1s, -moz-transform 1.1s;
+    -webkit-transition: width 1.1s, height 1.1s, webkit-transform 1.1s;
+    -o-transition: width 1.1s, height 1.1s,-o-transform 1.1s;
+}
+.zoomP:hover{
+    /* Transformamos el elemento al pasar el mouse por encima al doble de su tamaño con scale() */
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);transform: scale(1.05);
 }
 
 
